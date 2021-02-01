@@ -1,0 +1,25 @@
+:root{
+    --dark:#2B950C;
+    --dark-x:#1e2126;
+    --light:#ffffff;
+}
+body{
+    font-family: 'Spartan',sans-serif;
+    font-weight: 300;
+    color: var(--light);
+
+}
+.bg-dark{
+    background-color: var(--dark )!important;
+}
+.bg-dark-x{background-color: var(--dark-x);}
+.form-control .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.img-1{
+    background-image: url('/imagenes/riego-1.jpg');
+    background-size:100% 100%;
+    background-position: center;
+
+}

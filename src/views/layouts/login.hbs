@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style_login.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-dark">
+    <section>
+        <div class="row g-0 container-fluid">
+            <div class="col-lg-7 col-sm-6 col-md-12 img-1">
+                {{>menssage}}
+            </div>
+            <div class="col-lg-5">
+                <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 w-100">
+                   
+                    
+                    <a class="navbar-brand text-white" href="/">
+                        <img src="/imagenes/logo.jpg" width="40" height="40"
+                            class="d-inline-block align-top" alt="">
+                        Automatización Riego 
+                    </a>
+
+                </div>
+                <div class="px-lg-5 py-lg-4 p-4 w-100 mb-auto">
+                    <h1 class="font-weight-bold mb-4">Iniciar Sesión</h1>
+                    <form id="login-form" class="form" action="/login" method="POST">
+                        <div class="form-group">
+                            <label for="username">Usuario :</label><br>
+                            <input type="text" name="username" id="username" class="form-control"
+                                placeholder="usuario : ">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Contraseña:</label><br>
+                            <input type="password" name="password" id="password" class="form-control"
+                                placeholder="contraseña : ">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="submit" class="btn btn-primary w-100" value="submit">
+                        </div>
+                    </form>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr>
+
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+</body>
+
+</html>
